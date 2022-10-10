@@ -1,0 +1,36 @@
+body{
+	background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    border: 0.5em solid white;
+    border-radius: 1rem;
+    padding: 0.45em;
+    background-color: #fff;
+    max-width: 17rem;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 1em;
+}
+.subtext{
+    text-align: center;
+    width: 95%;
+}
+
+.subtext h4{
+    margin-top: 0.6em;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.subtext p{
+    margin-top: 0.5em;
+    color: #a7a7a0;
+}
